@@ -6,7 +6,7 @@ Generative AI technologies such as ChatGPT, GPT-4, and Stable Diffusion have gai
 
 **Key Aspects:**
 
-- As there are many existing works utilizing proprietary LLMs like ChatGPT and GPT-4, this repository focuses primarily on open source LLMs.
+- As there are many existing works utilizing proprietary LLMs like ChatGPT and GPT-4, this repository focuses primarily on **open source** LLMs.
 
 - Apart from LLMs, other technologies utilized will aim to leverage open source options where possible, such as text-to-speech and vision models.
 
@@ -18,7 +18,7 @@ Generative AI technologies such as ChatGPT, GPT-4, and Stable Diffusion have gai
 
 This notebook enables conversations with an AI assistant using audio input and output. The assistant is powered by the open source LLM Mistral-7B-Instruct, with the ability to switch models.
 
-### 2. Chat over documents with Open Source LLM
+### 2. Chat over documents(RAG - Retrieval Augmented Generation) with Open Source LLM
 
 This notebook facilitates conversations with an AI assistant to answer questions about a uploaded PDF. It uses the open source LLM Mistral-7B-Instruct, again with model switching capabilities.
 
@@ -33,3 +33,11 @@ This notebook illustrates using the Autogen library to efficiently configure con
 ### 5. Create Voice Over for Video using LLaVa and TTS
 
 This notebook uses open source vision model and speech synthesis to automatically create video narration. It extracts frames, generates descriptions with LLaVA, summarizes into a prompt for GPT-4, synthesizes audio with SileroTTS, and combines with the original video.
+
+### 6. Fine-Tuning llama 3.1 8B Base Model with Unsloth
+
+This notebook demonstrates fine-tuning llama 3.1 8B LLM model with **Unsloth** library to imitate the charming character of Peppa Pig. Peppa Pig is a beloved children's character known for her adorable adventures and relatable stories. By leveraging the power of transformer-based models, we can create a version of Peppa Pig that not only generates text in her unique voice but also captures her playful spirit and whimsical outlook on life.
+
+> _Below is the comparison of the fine tuned model, base model and GPT-4o. Peppa Pig's style of answering and speaking is characterized by simplicity and directness. The dialogue is often straightforward and easy to understand, making it accessible for young children. **Base model cannot achieve this by pure prompting, the fine tuned model is doing well on the test questions.**_
+
+![Alt text](Assets/result.jpg?raw=true "Result")
