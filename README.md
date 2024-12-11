@@ -41,3 +41,9 @@ This notebook demonstrates fine-tuning llama 3.1 8B LLM model with **Unsloth** l
 > _Below is the comparison of the fine tuned model, base model and GPT-4o. Peppa Pig's style of answering and speaking is characterized by simplicity and directness. The dialogue is often straightforward and easy to understand, making it accessible for young children. **Base model cannot achieve this by pure prompting, the fine tuned model is doing well on the test questions.**_
 
 ![Alt text](Assets/result.jpg?raw=true "Result")
+
+### 7. Build a Versatile LLM Agent with LangGraph
+
+This notebook showcases how to build a functional LLM-powered chatbot agent for an educational company, "Best Courses," highlighting the versatility of the LangGraph framework in developing advanced LLM agents. It demonstrates key capabilities such as LLM powered dynamic routing, Retrieval-Augmented Generation (RAG), structured data-driven question answering, subgraph integration, and more.
+
+![Alt text](Assets/agent_edu.gif?raw=true "Result")
