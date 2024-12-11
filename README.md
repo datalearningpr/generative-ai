@@ -44,6 +44,6 @@ This notebook demonstrates fine-tuning llama 3.1 8B LLM model with **Unsloth** l
 
 ### 7. Build a Versatile LLM Agent with LangGraph
 
-This notebook showcases how to build a functional LLM-powered chatbot agent for an educational company, "Best Courses," highlighting the versatility of the LangGraph framework in developing advanced LLM agents. It demonstrates key capabilities such as LLM powered dynamic routing, Retrieval-Augmented Generation (RAG), structured data-driven question answering, subgraph integration, and more.
+This notebook showcases how to build a functional LLM-powered chatbot agent for an educational company, "Best Courses," highlighting the versatility of the **LangGraph** framework in developing advanced LLM agents. It demonstrates key capabilities such as LLM powered dynamic routing, Retrieval-Augmented Generation (RAG), structured data-driven question answering, subgraph integration, and more.
 
 ![Alt text](Assets/agent_edu.gif?raw=true "Result")
